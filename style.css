@@ -101,17 +101,17 @@ body{
     
     .three{
         grid-column: 1 / 5;
-        grid-row: 3/3;
+        grid-row: 5/5;
     }
     
     .four{
         grid-column: 1 /5;
-        grid-row: 4/4;
+        grid-row: 3/3;
     }
     
     .five{
         grid-column: 1 / 5;
-        grid-row: 5/5;
+        grid-row: 4/4;
     }
     .head-info{
         font-size: 16px;
