@@ -20,17 +20,23 @@ body{
     padding:100px;
 }
 
+.wrap{
+    margin:0 150px;
+}
+
 .main > div{
     flex-wrap: wrap;
     border-radius: 10px;
-    padding:50px;
+    padding:30px;
     box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.75);
 }
 
 .zapeta{
     position: absolute;
-    left: 70%;
+    height:150px;
     z-index: -1;
+    left:70%;
+    top:0%;
 }
 
 .one{
@@ -73,6 +79,9 @@ body{
         grid-template-rows: 1fr;
         padding:20px;
     }
+    .zapeta{
+        left: 64%;
+    }
     .wrap{
         width:90%;
         margin:0 auto;
@@ -101,6 +110,12 @@ body{
         grid-column: 1 / 5;
         grid-row: 5/5;
     }
+    .head-info{
+        font-size: 16px;
+    }
+    .more-info{
+        font-size: 12px;
+    }
 }
 
 .first-section{
@@ -120,11 +135,11 @@ body{
 .head-info{
     padding-top: 14px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .more-info{
-    padding-top: 14px;
+    padding-top: 22px;
     font-size: 16px;
     font-weight: 500;
     color:#a3a3a3
